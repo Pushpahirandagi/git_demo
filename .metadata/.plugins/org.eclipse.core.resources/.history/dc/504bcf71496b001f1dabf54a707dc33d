@@ -1,0 +1,19 @@
+package Javaprogram;
+
+public class ReverseString 
+{
+
+	public static void main(String[] args) 
+	{
+		String str ="java";
+		String reverseString="";
+		for(int j=str.length()-1; j>=0; j--)
+		{
+			reverseString = reverseString+str.charAt(j);
+		}
+		System.out.println(reverseString);
+	}
+}
+		
+			
+			
